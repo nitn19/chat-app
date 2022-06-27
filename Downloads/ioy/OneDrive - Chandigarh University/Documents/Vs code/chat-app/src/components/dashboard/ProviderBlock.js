@@ -50,7 +50,7 @@ const ProvideBlocker = () => {
       Alert.info(`Linked to ${provider.providerId}`, 4000);
       updateIsConnected(provider.providerId, true);
     } catch (err) {
-      Alert.error(err.message, 40000);
+      Alert.error(err.message, 4000);
     }
   };
 
