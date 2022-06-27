@@ -58,4 +58,4 @@ const EditableInput = ({
   );
 };
 
-export default EditableInput();
+export default EditableInput;
